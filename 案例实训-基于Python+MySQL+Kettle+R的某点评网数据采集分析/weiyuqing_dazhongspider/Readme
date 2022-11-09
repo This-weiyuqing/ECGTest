@@ -1,0 +1,7 @@
+python interpreter中操作：
+pyecharts版本替换为 0.5.11
+Markupsafe替换为2.0.1
+
+terminal操作
+pip uninstall jinjia2
+pip install jinja2==2.11.3
