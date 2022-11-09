@@ -1,0 +1,13 @@
+clc; clear all; 
+%------ SPECIFY DATA ------------------------------------------------------ 
+%%选择文件名称 
+stringname='111'; 
+%选择你要处理的信号点数 
+points=10000;   
+PATH= 'W:\ecgmalab\data'; % path, where data are saved 
+HEADERFILE= strcat(stringname,'.hea');            % header-file in text format
+ATRFILE= strcat(stringname,'.atr');                % attributes-file in binary format
+DATAFILE=strcat(stringname,'.dat');                % data-file 
+SAMPLES2READ=points;                  % number of samples to be read                   
+                                   % in case of more than one signal:                                                
+                                                % 2*SAMPLES2READ samples are read  
